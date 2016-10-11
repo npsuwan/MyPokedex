@@ -1,10 +1,59 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Hello</title>
-</head>
-<body>
-  <script src="hello.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyPokedex</title>
+    <style>
+      ol{
+        margin:0;
+      }
+      li a{
+        text-decoration: none;
+        color:white;
+      }
+      body{
+        font-size: 20px;
+        margin:0 auto;
+      }
+      h3{
+        font-size: 30px;
+        margin:0 auto;
+        color: white;
+        padding:10px;
+      }
+      header{
+        background-color:black;
+        height:50px;
+      }
+      #content{
+        background-color:gray;
+        padding:10px;
+        color:white;
+      }
+      a span{
+        color:gold;
+        font-size:15px;
+      }
+      </style>
+  </head>
+  <body>
+    <script src="hello.js"></script>
+    <header>
+      <h3><img src="pokeball.png"/>MY POKEDEX</h3>
+    </header>
+    <div id="content">
+      <ol>
+        <li><a href="#">Bulbasaur <span>(Grass,Poison)</span></a></li>
+        <li><a href="#">Ivysaur <span>(Grass,Poison)</span></a></li>
+        <li><a href="#">Caterpie <span>(Bug)</span></a></li>
+        <li><a href="#">Pikachu <span>(Electric)</span></a></li>
+        <li><a href="#">Blastoise <span>(Water)</span></a></li>
+        <li><a href="#">Metapod <span>(Bug)</span></a></li>
+        <li><a href="#">Weedle <span>(Bug,Poison)</span></a></li>
+        <li><a href="#">Kakuna <span>(Bug,Poison)</span></a></li>
+        <li><a href="#">Nidoran <span>(Poison)</span></a></li>
+        <li><a href="#">Vulpix <span>(Fire)</span></a></li>      
+      </ol>
+    </div>
+  </body>
 </html>
